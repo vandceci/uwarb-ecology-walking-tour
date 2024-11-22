@@ -1,12 +1,5 @@
-# Web Walking Tour
-This library provides a framework for the creation and implementation of a map-based guided tour, delivered through a browser. The library was created as a teaching tool for an advanced cartography course at the University of Wisconsin-Madison, for students with little to no programming experience, and beginner HTML/CSS skills. As such, this framework is designed to help develop graphic design skills through HTML/CSS (without touching JS). On a theoretical level, the creation of map-based guided tour allows students to explore the relationship between _maps_ and places that are _mapped_. 
-
-For those more familiar with JavaScript, the libary can be easily adapted to new pedagogical and practical contexts. The library is built using [Leaflet](https://leafletjs.com/), [Bootstrap](https://getbootstrap.com/), and [Papa Parse](https://www.papaparse.com/). 
-
-The library currently utilizes sample content created for a Green Stormwater Infrastructure Tour created in partnership between the UW Cartography Lab, and Wisconsin Sea Grant.
-
-# Getting Started
-Begin by downloading the zip file of the library ([main.zip](https://github.com/cartobaldrica/web-walking-tour/archive/refs/heads/main.zip)), or cloning it to your local computer.
+# UW Arboretum Ecology Walking Tour
+This is a web based walking tour of UW Madison's arboretum. The UW Arboretum has many different types of restored Wisconsin community types, which demonstrate a wide breadth of Wisconsin ecology. In this tour, different communities and Wisconsin tree species of interest will be highlighted. Walk this tour to get a deeper understanding of Wisconsin ecology and the UW Arboretum!
 
 # Structure
 The __Web Walking Tour__ is structured through a single webpage interface. The tour itself is comprised of _stops_ and a _route_, both presented on a slippy map interface. Each _stop_ is a point location, while the _route_ is a linestring between each stop. When a _stop_ is selected, it opens a modal interface presenting images and text about the selected stop. 
